@@ -1,13 +1,13 @@
 
 public class InvalidNumberException extends Exception {
 
-    private static final String DEFAULT_ERROR_CAUSE = "Negative numbers are not supported.";
+    private static final String ERROR_CAUSE = "Error!!!";
 
     public InvalidNumberException(String message) {
         super(message);
     }
 
     public InvalidNumberException() {
-        super(DEFAULT_ERROR_CAUSE);
+        super(ERROR_CAUSE);
     }
 }
